@@ -54,7 +54,7 @@ class _MyHomePageState extends State<MyHomePage> {
   void listenSensor() async {
     // Listen to gyroscope data stream
     accelerometerEventStream().listen((event) {
-      Future.delayed(const Duration(milliseconds: 80)).then(
+      Future.delayed(const Duration(milliseconds: 200)).then(
         (value) => setState(() {
           _accX = event.x;
           _accY = event.y;
@@ -100,8 +100,14 @@ class _MyHomePageState extends State<MyHomePage> {
         width: MediaQuery.of(context).size.width,
         height: MediaQuery.of(context).size.height,
         child: Stack(
-          alignment: Alignment.center,
           children: [
+            Align(
+              alignment: Alignment.center,
+              child: Text(
+                "Ball coordinates: x=${ballX.toInt()}, y=${ballY.toInt()}",
+                style: const TextStyle(fontSize: 14, color: Colors.black54),
+              ),
+            ),
             Positioned(
               left: ballX,
               top: ballY,
