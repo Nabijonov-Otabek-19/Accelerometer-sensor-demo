@@ -1,16 +1,6 @@
-# gyroscope_sensor_demo
+# Accelerometer_sensor_demo
 
-A new Flutter project.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+https://github.com/Nabijonov-Otabek-19/Accelerometer-sensor-demo/assets/81671570/8f6120a0-245c-4396-ac96-8fb94bc8f724
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
